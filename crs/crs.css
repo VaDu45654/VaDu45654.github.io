@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tohoma, sans-serif;
+}
+.logo-img{
+
+}
+.container{
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.img{
+    width: 100%;
+
+}
+/*heder*/
+
+
+
+.header{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background: #000;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 2s;
+}
+
+.menu-item .menu-link:hover{
+    color: #000;
+}
+
+.banner-title, .banner-description {
+    text-align: center;
+    color: #fff;
+}
+
+.banner-title{
+    font-size: 48px;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(/img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*carsd*/
+
+.card-section{
+    padding: 50px 0px;
+}
+
+.cards-title, .card-description{
+    color: #000;
+    text-align: center;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    width: 25%;
+    background: #fff;
+    box-shadow: 0px 2px 7px 0px blue;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0px 10px 30px 0px blue;
+}
+
+.cart-link{
+    text-decoration:none;
+    color: #fff;
+    width: 100%;
+}
+
+
+.card-button{
+    text-align: center;
+    background: #000;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+
+}
+
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+
+
+/*footer*/
+
+.footer{
+    background: #000;
+    padding: 10px 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.copyright{
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.footer-logo{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    transition: 1s linear; /* Время изменения */
+}
+
+.footer-logo:hover{
+    background: #1E90FF;
+}
+
+.footer-logo1{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    transition: 1s linear; /* Время изменения */
+}
+
+.footer-logo1:hover{
+    background: #A52A2A;
+}
+.footer-logo2{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    transition: 1s linear; /* Время изменения */
+}
+
+.footer-logo2:hover{
+    background: #3CB371;
+}
+
+
+
+

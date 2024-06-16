@@ -388,7 +388,7 @@ a{
     top: 20em;
 }
 
-.main-content-yroku_img, .main-content-yroku_img1, .main-content-yroku_img2 img{
+.main-content-yroku_img .main-content-yroku_img1 .main-content-yroku_img2, img{
     width: 100%;
 }
 
